@@ -9,7 +9,13 @@ def fb(x):
     return 10 + sum(x[i]**2 - np.cos(2*np.pi*x[i]) for i in range(10))
 
 if __name__ == "__main__":
+    N = 500
+    func = fa
+    algo = CSA
+
     x0 = np.zeros(10)
     x1 = np.ones(10)
-    mean,std = testProgram(CSA,fa,500,x0)
+    initial_x = x0
+
+    mean,std = testProgram(algo,func,N,initial_x)
     print(mean,std)
