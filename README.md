@@ -1,6 +1,11 @@
-# Paper Review
+# Simulated Annealing Algorithms Python Implementation
 
-Self python implementation of simulated annealing algorithms analyzed in [SIMULATED ANNEALING: A REVIEW AND A NEW SCHEME](https://ieeexplore.ieee.org/document/9513782) by Thomas Guilmeau, Emilie Chouzenoux, and Víctor Elvira
+Self python implementation of simulated annealing algorithms analyzed in [SIMULATED ANNEALING: A REVIEW AND A NEW SCHEME](https://ieeexplore.ieee.org/document/9513782) by Thomas Guilmeau, Emilie Chouzenoux, and Víctor Elvira. Including the following algorithms:
+
+* Simulated Annealing (SA)
+* Fast Simulated Annealing (FSA)
+* Sequential Monte Carlo Simulated Annealing (SMC-SA)
+* Curious Simulated Annealing (CSA)
 
 ## Installation
 
@@ -27,7 +32,7 @@ $func$ - Target function to apply the simulated annealing algorithms
 
 $algo$ - Algorithm applied to optimize on the target function
 
-$initial\_x$ - Initial value assigned to start the iterations.
+$initial \_ x$ - Initial value assigned to start the iterations.
 
 The program is designed to run $N$ iterations of the applied algorithms on the target function to calculate its average best value and standard deviation as a direct conparison for different variations of the simulated annealing algorithm.
 
